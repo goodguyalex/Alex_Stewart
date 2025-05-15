@@ -3,14 +3,14 @@ li, a, button {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 20px;
-    color: #b58133;
+    color: black;
     text-decoration: none;
     text-align: center;
 }
 
 header {
     display: flex;
-    background-color: cornsilk;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
@@ -21,10 +21,6 @@ header {
     cursor: pointer;
     height: 80px;
     width: auto;
-}
-
-.logo:hover {
-    background-color: rgb(248, 240, 207);
 }
 
 .nav__links {
@@ -42,11 +38,12 @@ header {
 
 .nav__links li a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(255,249,247,1);
+    background-color: white;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -81,7 +78,7 @@ body {
 
 .btn {
     padding: 9px 25px;
-    background-color: rgba(255,249,247,1);
+    background-color: whitesmoke;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -138,7 +135,7 @@ img {
 
 /* Showcase */
 .showcase {
-    min-height: 400px;
+    min-height: 300px;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -176,7 +173,7 @@ img {
 /* TOP BOX */
 
 .top-box {
-    background: cornsilk;
+    background: white;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -214,9 +211,9 @@ img {
 }
 
 .box {
-    background: cornsilk;
+    background: white;
     text-align: center;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2rem;
     box-shadow: var(--shadow);
 }
 
@@ -246,7 +243,7 @@ img {
 
 footer {
     margin-top: 2rem;
-    background: cornsilk;
+    background: white;
     color: var(--dark);
     text-align: center;
     padding: 1rem;
@@ -266,6 +263,7 @@ footer {
 /* Top Container */
 .top-container-services {
     display: grid;
+    justify-self: center;
     grid-gap: 20px;
     grid-template-areas: 
         'web-dev'
